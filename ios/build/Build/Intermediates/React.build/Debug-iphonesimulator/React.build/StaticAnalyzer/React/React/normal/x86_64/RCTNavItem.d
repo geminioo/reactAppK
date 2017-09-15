@@ -1,0 +1,4 @@
+dependencies: \
+  /Users/noppadoltechananalert/Desktop/project/reactAppK/node_modules/react-native/React/Views/RCTNavItem.m \
+  /Users/noppadoltechananalert/Desktop/project/reactAppK/node_modules/react-native/React/Views/RCTNavItem.h \
+  /Users/noppadoltechananalert/Desktop/project/reactAppK/node_modules/react-native/React/Views/RCTComponent.h
