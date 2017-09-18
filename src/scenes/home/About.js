@@ -1,12 +1,14 @@
 //import liraries
 import React, { Component } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
+import { FeedContainer } from '../../features';
 
 // create a component
 const About = () => {
   return (
     <View style={styles.container}>
       <Text>About scene</Text>
+      <FeedContainer></FeedContainer>
     </View>
   );
 };

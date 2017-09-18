@@ -4,8 +4,9 @@ import { project } from './config';
 import * as scene from './scenes'
 
 export const Scenes = [
-  { key: 'modularAbout', component: 'About', title: 'm About', options: {} },
-  { key: 'modularForm', component: 'Form', title: 'm Form', options: {} },
+  { key: 'modularDetailPage', component: 'DetailPage', title: 'Detail', options: {} },    
+  { key: 'modularAbout', component: 'About', title: 'm Aboutx', options: {} },
+  { key: 'modularForm', component: 'Form', title: 'm Formx', options: {} },
   { key: 'modularDefaultForm', component: 'DefaultFrom', title: 'm DefaultForm', options: {} },
   { key: 'modularInitForm', component: 'InitFrom', title: 'm InitForm', options: {} },
   { key: 'modularValidateForm', component: 'ValidateFrom', title: 'm ValidateForm', options: {} },
@@ -20,7 +21,8 @@ const renderScenes = (sceneArr = [], module) => {
 const Routes = () => {
   return (
     <Router sceneStyle={{ marginTop: 70 }}>
-      <Scene key="modularHome" component={scene.Home} title="m Home" initial />
+      <Scene key="modularFirstPage" component={scene.FirstPage} title="Reddit" initial />
+      <Scene key="modularHome" component={scene.Home} title="m Home" />
       {renderScenes(Scenes, scene)}
     </Router>
   )
